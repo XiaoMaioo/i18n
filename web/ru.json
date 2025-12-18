@@ -431,125 +431,125 @@
         "description": "Для вашей же безопасности, мы вам рекомендуем использовать пароль который вы не используете где либо ещё.",
         "current": "Нынешний пароль",
         "new": "Новый пароль",
-        "requirements": "Ваш новый пароль должен быть от 6 до 72 символов вдлину",
-        "save": "Save changes",
-        "toast": "Your password has been changed!"
+        "requirements": "Ваш новый пароль должен быть от 6 до 72 символов вдлину.",
+        "save": "Изменить сохранения",
+        "toast": "Ваш пароль изменён!"
       },
       "twoFactor": {
-        "title": "Two-factor authentication",
-        "description": "Secure your account with TOTP two-factor authentication.",
-        "button": "Enable 2FA",
-        "footer": "We recommend using a trusted authenticator for 2FA, such as 1Password, Google Authenticator, or Authy.",
-        "enabled": "Enabled",
-        "disable": "Disable",
+        "title": "Дву-факторная аутентификация",
+        "description": "Защитите свой аккаунт с помощью TOTP дву-факторной аутентификацией.",
+        "button": "Включить 2FA",
+        "footer": "Мы рекомендуем использовать доверенный аутентификатор, такой как  1Password, Google Authenticator, или Authy.",
+        "enabled": "Включена",
+        "disable": "Выключена",
         "setup": {
-          "title": "Setup Two-Factor Authentication",
-          "description": "Scan the QR code with your authenticator app (Google Authenticator, Authy, etc.)",
-          "manualEntry": "Can't scan? Enter this code manually:",
-          "verificationCode": "Verification Code",
-          "verify": "Verify & Enable",
-          "verifying": "Verifying...",
-          "cancel": "Cancel"
+          "title": "Настроить Two-Factor Authentication",
+          "description": "Отсканируй QR код своим приложением аутентификатора (Google Authenticator, Authy, etc.)",
+          "manualEntry": "Не можете отсканировать? Введите код вручную:",
+          "verificationCode": "Код подтверждения",
+          "verify": "Подтвердить и включить",
+          "verifying": "Подтверждение...",
+          "cancel": "Отменить"
         },
         "backup": {
-          "title": "Save Your Backup Codes",
-          "description": "These codes can be used to access your account if you lose your authenticator. Each code can only be used once.",
-          "warning": "Store these codes in a safe place. They will not be shown again.",
-          "copy": "Copy All Codes",
-          "copied": "Copied!",
-          "confirm": "I've Saved My Codes"
+          "title": "Сохраните свои бэлап-коды",
+          "description": "Эти коды используются когда вы потеряли свой аутентификатор, каждый код можно использовать лишь единажды.",
+          "warning": "Сохраните эти коды в надежном месте. Вы их больше не увидите.",
+          "copy": "Скопировать",
+          "copied": "Скопировано!",
+          "confirm": "Я сохранил коды"
         },
         "disableDialog": {
-          "title": "Disable Two-Factor Authentication",
-          "description": "Enter your password to confirm. This will make your account less secure.",
-          "password": "Password",
-          "cancel": "Cancel",
-          "confirm": "Disable 2FA",
-          "disabling": "Disabling..."
+          "title": "Выключить дву-факторную аутентификацию",
+          "description": "Введите пароль чтобы продолжить.",
+          "password": "Пароль",
+          "cancel": "Отмена",
+          "confirm": "Выключить 2FA",
+          "disabling": "Выключение..."
         },
         "toast": {
-          "setupFailed": "Failed to start 2FA setup",
-          "enabled": "2FA enabled successfully",
-          "invalidCode": "Invalid verification code",
-          "disabled": "2FA has been disabled",
-          "invalidPassword": "Invalid password",
-          "copied": "Backup codes copied",
-          "secretCopied": "Secret copied"
+          "setupFailed": "Не удалось начать настройку 2FA",
+          "enabled": "2FA успешно включена",
+          "invalidCode": "Неверный подтверждающий код",
+          "disabled": "2FA была успешно выключена",
+          "invalidPassword": "Неверный пароль",
+          "copied": "бэкап коды были скопированы",
+          "secretCopied": "Secret скопирован"
         }
       }
     }
   },
   "auth": {
     "login": {
-      "title": "Sign in to your account",
-      "description": "Please enter your credentials to continue.",
-      "email": "Email address",
-      "password": "Password",
-      "forgotPassword": "Forgot password?",
-      "signIn": "Sign in",
-      "noAccount": "Don't have an account?",
-      "signUp": "Sign up",
+      "title": "Войти в аккаунт",
+      "description": "Пожалуйста, введите данные для входа.",
+      "email": "Електронная почта",
+      "password": "Пароль",
+      "forgotPassword": "Забыли пароль?",
+      "signIn": "Войти",
+      "noAccount": "Нету аккаунт?",
+      "signUp": "Зарегестрироваться",
       "twoFactor": {
-        "title": "Two-Factor Code",
-        "back": "Back",
-        "hint": "Enter the 6-digit code from your authenticator app, or a backup code."
+        "title": "Код 2FA",
+        "back": "Назад",
+        "hint": "Введите 6 значный код с вашего 2FA приложения, или бэкап код."
       }
     },
     "authorize": {
-      "title": "Authorize Application",
-      "request": "{app} wants to connect to your account",
-      "allow": "Allow",
-      "deny": "Deny"
+      "title": "Авторизация приложения",
+      "request": "{app} хочет подключиться к вашему аккаунту",
+      "allow": "Разрешить",
+      "deny": "Отклонить"
     },
     "register": {
-      "title": "Create an account",
-      "description": "Please enter your information to sign up.",
-      "username": "Username",
-      "email": "Email",
-      "password": "Password",
-      "confirmPassword": "Confirm Password",
-      "submit": "Sign up",
-      "haveAccount": "Already have an account?",
-      "signIn": "Sign in"
+      "title": "Создать аккаунт",
+      "description": "Пожалуйста, введите данные для регистрации.",
+      "username": "Логин",
+      "email": "Електронная почта",
+      "password": "Пароль",
+      "confirmPassword": "Повторите пароль",
+      "submit": "Зарегестрироваться",
+      "haveAccount": "Уже есть аккаунт?",
+      "signIn": "Войти"
     },
     "spotify": {
-      "connect": "Connect Spotify"
+      "connect": "Подключить Spotify"
     }
   },
   "reseller": {
-    "title": "Reseller Statistics",
-    "description": "View key usage statistics for each reseller prefix.",
-    "total": "Total",
-    "used": "Used",
-    "available": "Available"
+    "title": "Статистика реселлерства",
+    "description": "Посмотреть статистику использований кода реселлера.",
+    "total": "Всего",
+    "used": "Использовано",
+    "available": "Доступно"
   },
   "network": {
-    "title": "Network",
-    "networkSuffix": "Network",
+    "title": "Сеть",
+    "networkSuffix": "Сеть",
     "nav": {
-      "overview": "Overview",
-      "users": "Users",
-      "resellers": "Resellers",
-      "keys": "Keys",
-      "media": "Media",
-      "payments": "Payments"
+      "overview": "Обзор",
+      "users": "Пользователи",
+      "resellers": "Реселлеры",
+      "keys": "Ключи",
+      "media": "Медиа",
+      "payments": "Способы оплаты"
     },
     "common": {
-      "loading": "Loading...",
-      "save": "Save",
-      "cancel": "Cancel",
-      "delete": "Delete",
-      "edit": "Edit",
-      "close": "Close",
-      "confirm": "Confirm",
-      "noPermission": "You don't have permission to access this.",
-      "thisMonth": "this month",
-      "remaining": "remaining",
-      "unknown": "Unknown",
-      "never": "Never",
-      "all": "All",
-      "yes": "Yes",
-      "no": "No"
+      "loading": "Загрузка...",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "delete": "Удалить",
+      "edit": "Редактировать",
+      "close": "Закрыть",
+      "confirm": "Подтвердить",
+      "noPermission": "У вас нету доступа к этому.",
+      "thisMonth": "этот месяц",
+      "remaining": "осталось",
+      "unknown": "Не известно",
+      "never": "Никогда",
+      "all": "Все",
+      "yes": "Да",
+      "no": "Нет"
     },
     "overview": {
       "totalKeysGenerated": "Total Keys Generated",
